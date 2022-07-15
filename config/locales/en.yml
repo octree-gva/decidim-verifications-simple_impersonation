@@ -1,6 +1,15 @@
----
 en:
   decidim:
-    components:
-      referral:
-        name: Referral
+    authorization_handlers:
+      simple_impersonation_handler:
+        name: "Impersonation"
+        explanation:
+        |
+          Meeting our team in the physical reality?
+          We use impersonation to include citizen's voices directly from the ground.
+        admin_only_explanation:
+        |
+          This authorization is used to impersonate your account when you meet our team in the physical reality.
+          Only administrators can impersonate users.
+        errors:
+          forbidden: You are not allowed to impersonate this user.

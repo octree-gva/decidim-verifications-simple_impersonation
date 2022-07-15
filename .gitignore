@@ -19,3 +19,6 @@ spec/decidim_dummy_app
 
 # default development application
 development_app
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
