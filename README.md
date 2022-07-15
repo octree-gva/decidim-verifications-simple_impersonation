@@ -31,7 +31,7 @@ To keep verification simple (meaning one thing do one thing only), we created th
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "decidim-simple-impersonation", git: "https://github.com/octree-gva/decidim-simple-impersonation"
+gem "decidim-module-simple_impersonation", git: "https://github.com/octree-gva/decidim-module-simple_impersonation"
 ```
 
 Then execute:
