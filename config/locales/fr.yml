@@ -1,0 +1,15 @@
+en:
+  decidim:
+    authorization_handlers:
+      simple_impersonation_handler:
+        name: "Représentation"
+        explanation:
+        |
+          Vous avez rencontré·e notre équipe sur le terrain ?
+          Nous utilisons cette autorisation pour représenter les activités citoyenne dans la plateforme.
+        admin_only_explanation:
+        |
+          Cette autorisation n'est utilisée que pour la représentation d'activité citoyenne sur la plateforme.
+          Seuls des administrateurs·es de la plateforme peuvent effectuer des représentations.
+        errors:
+          forbidden: Cette action n'est pas autorisée.
