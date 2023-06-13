@@ -21,10 +21,10 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
 
-  s.add_dependency "decidim-admin", Decidim::Verifications::SimpleImpersonation.version
-  s.add_dependency "decidim-core", Decidim::Verifications::SimpleImpersonation.version
-  s.add_dependency "decidim-verifications", Decidim::Verifications::SimpleImpersonation.version
+  s.add_dependency "decidim-admin", Decidim::Verifications::SimpleImpersonation.decidim_version
+  s.add_dependency "decidim-core", Decidim::Verifications::SimpleImpersonation.decidim_version
+  s.add_dependency "decidim-verifications", Decidim::Verifications::SimpleImpersonation.decidim_version
   s.add_dependency 'rails', '>= 5.2'
   
-  s.add_development_dependency "decidim-dev", Decidim::Verifications::SimpleImpersonation.version
+  s.add_development_dependency "decidim-dev", Decidim::Verifications::SimpleImpersonation.decidim_version
 end
